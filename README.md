@@ -1,7 +1,6 @@
 # chumlord-site
 
-Public landing page for [Chumlord](https://github.com/morelandjs/chumlord) — a
-minimalistic friend-catchup tracker for iOS.
+Public landing page for Chumlord — a minimalistic friend-catchup tracker for iOS.
 
 Hosted via GitHub Pages from the `main` branch root:
 **https://morelandjs.github.io/chumlord-site/**
