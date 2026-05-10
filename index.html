@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chumlord</title>
+  <meta name="description" content="A small iOS app for keeping in touch with friends. Ranks them by who you're most overdue to call." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Chumlord</h1>
+      <p class="tag">A small iOS app for keeping in touch with friends.</p>
+    </header>
+
+    <section class="intro">
+      <p>
+        Add the people you want to stay in contact with, set a rough cadence
+        for each (weekly, monthly, whatever), and log a catchup when it
+        happens. The list re-ranks so the friend you're most overdue to call
+        sits at the top.
+      </p>
+      <p>
+        That's the whole app. No accounts, no notifications, no streaks.
+        Everything stays on your phone.
+      </p>
+    </section>
+
+    <figure class="shot">
+      <img src="screenshots/01-main.png" alt="Chumlord ranked friend list" />
+    </figure>
+
+    <section class="ranking">
+      <h2>How the ranking works</h2>
+      <p>
+        Each friend is scored by elapsed time since last contact divided by
+        their target cadence. So a week-late weekly friend outranks a
+        month-late annual friend — overdueness is judged relative to the
+        cadence you set, not in absolute days.
+      </p>
+    </section>
+
+    <section class="status">
+      <h2>Status</h2>
+      <p>
+        Built by one person as a side project. Not on the App Store yet.
+        If you want to try it, the source is on
+        <a href="https://github.com/morelandjs/chumlord">GitHub</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <a href="privacy.html">Privacy</a>
+    <span>·</span>
+    <a href="support.html">Support</a>
+    <span>·</span>
+    <a href="https://github.com/morelandjs/chumlord">Source</a>
+  </footer>
+</body>
+</html>
